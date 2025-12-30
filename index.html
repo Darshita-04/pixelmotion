@@ -6,277 +6,285 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body theme="salmon">
-    <main class="w-full">
-      <div class="home w-full h-screen relative">
-        <div class="bottom-text absolute z-[4] left-[2%] bottom-[7%] w-52 section">
-          We build big ideas. <br>
-          Software. Apps. Tools. <br>
-          For real people. Real lives
-        </div>
-        <div class="video hidden w-full h-screen absolute left-0 top-0 z-[3]">
-          <video autoplay muted loop class="w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="assets/nature.mp4"></video>
-        </div>
-        <div class="section marquee-container w-full h-screen relative overflow-hidden">
-          <div class="heading text-center absolute top-[10%] left-1/2 -translate-x-1/2 width-60">
-            <h1 class="font-medium text-xl">Crafting a new paradigm of <br>healthcare, one that is</h1>
+  <body theme="black">
+    <main class="w-full overflow-clip">
+
+      <!-- home -->
+
+      <div class="home w-full h-[200vh] relative">
+        <div class="w-full sticky top-0 left-0">
+          <div class="bottom-text absolute z-[4] left-[2%] bottom-[7%] w-52 section">
+            We build big ideas. <br>
+            Software. Apps. Tools. <br>
+            For real people. Real lives
           </div>
-          <div class="w-[90%] scale-[1] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <div class="row -translate-x-1/2 w-full whitespace-nowrap flex items-center gap-10">
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  empathetic
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png" loading="lazy" alt="A person Smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  useful
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" loading="lazy" alt="A older man with glasses" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  intuitive
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" loading="lazy" alt="Woman with Afro" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  elegant
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" loading="lazy" alt="A person with a jacket on" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  thoughtful
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" loading="lazy" alt="Old man with hat on"  class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  bold
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" loading="lazy" alt="A older man with glasses on" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  functional
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" loading="lazy" alt="Old man with hat on" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  authentic
-                </h1>
-              </div>
+          <div style="--clip:50%" class="video w-full h-screen absolute left-0 top-0 z-[3]">
+            <video autoplay muted loop class="w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="assets/nature.mp4"></video>
+          </div>
+          <div class="section marquee-container w-full h-screen relative overflow-hidden">
+            <div class="heading text-center absolute top-[10%] left-1/2 -translate-x-1/2 width-60">
+              <h1 class="font-medium text-xl">Crafting a new paradigm of <br>healthcare, one that is</h1>
             </div>
-            <div class="row -translate-x-1/3 w-full whitespace-nowrap flex items-center gap-10">
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  empathetic
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
+            <div class="marquee w-[90%] scale-[1] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <div class="row lft -translate-x-1/2 w-full whitespace-nowrap flex items-center gap-10">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    empathetic
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png" loading="lazy" alt="A person Smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    useful
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" loading="lazy" alt="A older man with glasses" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    intuitive
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" loading="lazy" alt="Woman with Afro" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    elegant
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" loading="lazy" alt="A person with a jacket on" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    thoughtful
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" loading="lazy" alt="Old man with hat on"  class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    bold
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" loading="lazy" alt="A older man with glasses on" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    functional
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" loading="lazy" alt="Old man with hat on" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    authentic
+                  </h1>
                 </div>
               </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  useful
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
+              <div class="row rgt -translate-x-1/3 w-full whitespace-nowrap flex items-center gap-10">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    empathetic
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    useful
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    intuitive
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png" loading="lazy" alt="Person staring stoically" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    elegant
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" loading="lazy" alt="A woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    thoughtful
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png" loading="lazy" alt="Older asian woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    bold
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" loading="lazy" alt="Older man with glasses on" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    functional
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" loading="lazy" alt="Woman with jacket on" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    authentic
+                  </h1>
                 </div>
               </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  intuitive
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png" loading="lazy" alt="Person staring stoically" class="w-full h-full object-cover">
+              <div class="row lft -translate-x-2/3 w-full whitespace-nowrap flex items-center gap-10">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    empathetic
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" loading="lazy" alt="Older man with hat on" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    useful
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.png" loading="lazy" alt="Young man wearing a sweatshirt " class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    intuitive
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    elegant
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" loading="lazy" alt="Young woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    thoughtful
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    bold
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    functional
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    authentic
+                  </h1>
                 </div>
               </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  elegant
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" loading="lazy" alt="A woman smiling" class="w-full h-full object-cover">
+              <div class="row rgt -translate-x-3/4 w-full whitespace-nowrap flex items-center gap-10">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    empathetic
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" loading="lazy" alt="Young woman smiling" class="w-full h-full object-cover">
+                  </div>
                 </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  thoughtful
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png" loading="lazy" alt="Older asian woman smiling" class="w-full h-full object-cover">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    useful
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" loading="lazy" alt="Young woman smiling" class="w-full h-full object-cover">
+                  </div>
                 </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  bold
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png" loading="lazy" alt="Older man with glasses on" class="w-full h-full object-cover">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    intuitive
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" loading="lazy" alt="Woman with afro" class="w-full h-full object-cover">
+                  </div>
                 </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  functional
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png" loading="lazy" alt="Woman with jacket on" class="w-full h-full object-cover">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    elegant
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
+                  </div>
                 </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  authentic
-                </h1>
-              </div>
-            </div>
-            <div class="row -translate-x-2/3 w-full whitespace-nowrap flex items-center gap-10">
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  empathetic
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png" loading="lazy" alt="Older man with hat on" class="w-full h-full object-cover">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    thoughtful
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">                  
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
+                  </div>
                 </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  useful
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.png" loading="lazy" alt="Young man wearing a sweatshirt " class="w-full h-full object-cover">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    bold
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
+                  </div>
                 </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  intuitive
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    functional
+                  </h1>
+                  <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">                  
+                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
+                  </div>
                 </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  elegant
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" loading="lazy" alt="Young woman smiling" class="w-full h-full object-cover">
+                <div class="elem flex items-center gap-10">
+                  <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
+                    authentic
+                  </h1>
                 </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  thoughtful
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  bold
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  functional
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  authentic
-                </h1>
-              </div>
-            </div>
-            <div class="row -translate-x-3/4 w-full whitespace-nowrap flex items-center gap-10">
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  empathetic
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" loading="lazy" alt="Young woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  useful
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png" loading="lazy" alt="Young woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  intuitive
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png" loading="lazy" alt="Woman with afro" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  elegant
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  thoughtful
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">                  
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  bold
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png" loading="lazy" alt="Older woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  functional
-                </h1>
-                <div class="w-[3.5rem] h-[3.5rem] bg-yellow-500 rounded-full">                  
-                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png" loading="lazy" alt="Woman smiling" class="w-full h-full object-cover">
-                </div>
-              </div>
-              <div class="elem flex items-center gap-10">
-                <h1 class="font-[PPNeueMachina] text-8xl font-semibold">
-                  authentic
-                </h1>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- craft -->
+
       <div class="craft section flex gap-10 px-10 py-10 justify-between items-start relative">
         <div class="craft-text w-[40%] sticky top-0">
           <p class="text-3xl leading-[3rem] font-light">
@@ -298,6 +306,9 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A quos nulla temporibus error inventore placeat autem voluptate neque, aspernatur, iure quo praesentium ullam aut laboriosam nisi. Corporis debitis aliquid, perspiciatis velit, fugiat veritatis natus at enim voluptatibus distinctio excepturi architecto optio repellat ipsa magnam quidem? Sit voluptas aut eos aliquid aperiam, ab voluptatibus modi ea ipsam, odit mollitia accusamus. Non est cupiditate facere quam provident odit ad. Deserunt, nulla. Laboriosam amet assumenda quidem animi voluptate eligendi laborum, fugit praesentium iste id tempora provident doloribus perspiciatis, molestias minus voluptas autem eveniet? Ipsa hic eligendi soluta ex alias harum sed animi modi sunt accusamus aliquam accusantium, blanditiis ratione consequatur! Blanditiis obcaecati facilis ipsum quae tempore asperiores eveniet sapiente minus non nesciunt laborum, accusantium iusto a qui sit fugiat molestias iste modi culpa unde! Molestiae quaerat vitae incidunt dolor rem pariatur hic libero nulla dolores, accusamus molestias aliquid iste veritatis perspiciatis recusandae fuga laudantium aperiam expedita illum voluptate! Soluta ab sit accusamus, tenetur velit veritatis molestias laboriosam deleniti vero aperiam debitis omnis natus vitae ratione consequatur repudiandae repellendus delectus eius voluptatum accusantium quas exercitationem aut facilis corrupti. Beatae autem sint eius vel, aliquam aperiam nobis ipsam excepturi placeat corporis obcaecati saepe laboriosam, harum doloribus dignissimos? Quis aliquid facilis nisi nostrum ipsa quae incidunt odio quam earum. Adipisci inventore iusto vero totam autem. Officia aut id eveniet ratione nesciunt facilis voluptatibus, repudiandae, error excepturi placeat, repellendus tempore? Laboriosam voluptates ex libero deserunt quia mollitia optio cupiditate dolor a. Libero dolore optio quisquam reprehenderit illum alias non ut, error minima, nostrum fugiat facere facilis ea blanditiis. Rem quidem, ipsa, exercitationem earum vel ipsam quia dicta quam nemo necessitatibus mollitia tenetur! Sint quasi autem, optio explicabo ipsum a voluptates velit, minima non blanditiis laudantium reiciendis enim asperiores quidem quod alias libero debitis, nobis fuga illo facilis consequatur in! Neque necessitatibus dolorem dicta blanditiis ipsam id, repudiandae qui odit quidem suscipit rerum veritatis quia laboriosam sapiente quo incidunt quod alias facere fugiat distinctio, ullam quis in? Asperiores blanditiis officia sit delectus, omnis vel soluta necessitatibus illum placeat eos accusamus laudantium ipsam minus qui molestiae, vero atque nihil eveniet in. Qui dolore earum eius, fuga ipsam, temporibus deleniti dolor esse magnam itaque dignissimos delectus perferendis recusandae accusamus numquam nihil incidunt ratione! Omnis rem porro, voluptatum dignissimos culpa rerum fuga neque vitae ipsa unde quia delectus modi earum doloribus explicabo aliquid nesciunt exercitationem, illum quaerat minima? Inventore ex quo, voluptatibus nam aspernatur doloribus dolorem repudiandae officia? Accusantium impedit dicta, magnam ab iusto expedita ea fuga voluptatibus, quam numquam suscipit magni, voluptatum optio saepe alias dolorum molestias animi corrupti deleniti et molestiae? Exercitationem autem voluptate, debitis, ullam consequatur, aspernatur cumque accusantium eligendi non a obcaecati facere laborum sit voluptatem accusamus earum. Quae inventore nobis id a fugit assumenda, quod soluta veniam eos nostrum eveniet voluptas reprehenderit, expedita eum ab? Pariatur corrupti expedita accusamus, quaerat dolor quibusdam nam esse assumenda blanditiis doloremque dignissimos quas voluptas voluptatibus. Consectetur eligendi labore fugiat quas, quam non sit debitis laborum est, illum facere repellat ea.
         </div>
       </div>
+      
+      <!-- real -->
+
       <div class="real section w-full">
         <div class="cont h-[400vh] relative">
           <div class="sticky top-0 left-0 w-full h-screen">
@@ -314,7 +325,7 @@
                 <p class="max-w-[360px] w-full text-2xl font-medium text-left absolute top-1/2 -translate-y-60 leading-10 left-[17%]">We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</p>
                 <div class="w-[60%] text-center">
                   <h1 class="font-[PPNeueMachina] text-[12rem] text-white leading-[1] tracking-tight">20.4M</h1>
-                  <div class="font-[PPNeueMachina] text-[3.5rem]">Real people — real lives — we have built products and solutions for.</div>
+                  <div class="font-[PPNeueMachinaLight] text-[3.5rem]">Real people — real lives — we have built products and solutions for.</div>
                 </div>
                 <div class="absolute w-60 h-60 overflow-hidden rounded-full -top-[5%]"> 
                   <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fHBvcnRyYWl0fGVufDB8fDB8fHww" class="w-full h-full object-cover" alt="">
@@ -333,7 +344,7 @@
                 <p class="max-w-[360px] w-full text-2xl font-medium text-left absolute top-1/2 -translate-y-60 leading-10 left-[17%]">Our team is global and diverse, because our individual experiences make us stronger.</p>
                 <div class="w-[60%] text-center">
                   <h1 class="font-[PPNeueMachina] text-[12rem] text-white leading-[1] tracking-tight">43%</h1>
-                  <div class="font-[PPNeueMachina] text-[3.5rem]">Expert Women in Tech.</div>
+                  <div class="font-[PPNeueMachinaLight] text-[3.5rem]">Expert Women in Tech.</div>
                 </div>
                 <div class="absolute w-65 h-65 overflow-hidden rounded-full -top-[2%]"> 
                   <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fHBvcnRyYWl0fGVufDB8fDB8fHww" class="w-full h-full object-cover" alt="">
@@ -347,7 +358,7 @@
               </div>
               <div class="slide w-full h-screen flex-shrink-0 flex items-center justify-center relative">
                 <div class="w-[60%] text-center">
-                  <div class="font-[PPNeueMachina] text-[3.5rem]">Nationalities Represented on Our Team.</div>
+                  <div class="font-[PPNeueMachinaLight] text-[3.5rem]">Nationalities Represented on Our Team.</div>
                 </div>
                 <div class="absolute w-65 h-65 left-[20%] overflow-hidden rounded-full -top-[5%]"> 
                   <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D" class="w-full h-full object-cover" alt="">
@@ -374,6 +385,79 @@
           </div>
         </div>
       </div>
+
+      <!-- testimonial -->
+
+      <div class="testimonial py-100 flex items-center justify-center">
+        <div class="section flex flex-col text-center gap-30 w-[80%]">
+          <div class="w-[50%]">
+            <p class="message text-3xl leading-12 font-medium">Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all of the areas we lack internally. I would personally be lost without this team, their ability to problem solve, their openness to feedback and desire to build the product like it is their own.</p>
+            <div class="w-30 h-30 overflow-hidden rounded-full mx-auto mt-20"> 
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fHBvcnRyYWl0fGVufDB8fDB8fHww" class="w-full h-full object-cover" alt="">
+            </div>
+            <h3 class="text-3xl leading-12 font-medium text-black mt-10">
+              Miranda Ernst
+            </h3>
+            <h5 class="text-2xl leading-12 font-medium text-black opacity-50">Product Manager @ HealthCheck360</h5>
+          </div>
+          <div class="self-end w-[50%]">
+            <p class="message text-3xl leading-12 font-medium">Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all of the areas we lack internally.</p>
+            <div class="w-30 h-30 overflow-hidden rounded-full mx-auto mt-20"> 
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fHBvcnRyYWl0fGVufDB8fDB8fHww" class="w-full h-full object-cover" alt="">
+            </div>
+            <h3 class="text-3xl leading-12 font-medium text-black mt-10">
+              Emek Altun
+            </h3>
+            <h5 class="text-2xl leading-12 font-medium text-black opacity-50">CEO @ Vitaservices</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- team -->
+
+      <div class="team section px-12">
+        <h1 class="font-[PPNeueMachina] text-7xl text-center mb-20">Our Team</h1>
+        <div class="team-list">
+          <div class="listitem relative flex items-center w-full px-12 pb-12 pt-15 border-b border-solid">
+            <span class="text-5xl opacity-50 w-30 font-[PPNeueMachinaLight]">01</span> 
+            <h3 class="text-5xl font-[PPNeueMachinaLight]"> Dr. Rick McCartney</h3>
+            <div class="text-3xl justify-end flex flex-1">CEO</div>
+            <div class="picture absolute rounded-full w-80 h-80 top-[50%] opacity-0 -translate-[50%] bg-red-500 left-[50%]"></div>
+            <div class="blue-layer bg-[#2544ee] absolute top-0 left-0 w-full h-full"></div>
+          </div>
+          <div class="listitem relative flex items-center w-full px-12 pb-12 pt-15 border-b border-solid">
+            <span class="text-5xl opacity-50 w-30 font-[PPNeueMachinaLight]">02</span> 
+            <h3 class="text-5xl font-[PPNeueMachinaLight]">Chris Koha</h3>
+            <div class="text-3xl justify-end flex flex-1">COO</div>
+            <div class="picture absolute rounded-full w-80 h-80 top-[50%] opacity-0 -translate-[50%] bg-red-500 left-[50%]"></div>
+          </div>
+          <div class="listitem relative flex items-center w-full px-12 pb-12 pt-15 border-b border-solid">
+            <span class="text-5xl opacity-50 w-30 font-[PPNeueMachinaLight]">03</span> 
+            <h3 class="text-5xl font-[PPNeueMachinaLight]">Caroline NWWieto</h3>
+            <div class="text-3xl justify-end flex flex-1">Chief Product Officer</div>
+            <div class="picture absolute rounded-full w-80 h-80 top-[50%] opacity-0 -translate-[50%] bg-red-500 left-[50%]"></div>
+          </div>
+          <div class="listitem relative flex items-center w-full px-12 pb-12 pt-15 border-b border-solid">
+            <span class="text-5xl opacity-50 w-30 font-[PPNeueMachinaLight]">04</span> 
+            <h3 class="text-5xl font-[PPNeueMachinaLight]">Víctor Albertos</h3>
+            <div class="text-3xl justify-end flex flex-1">CTO</div>
+            <div class="picture absolute rounded-full w-80 h-80 top-[50%] opacity-0 -translate-[50%] bg-red-500 left-[50%]"></div>
+          </div>
+          <div class="listitem relative flex items-center w-full px-12 pb-12 pt-15">
+            <span class="text-5xl opacity-50 w-30 font-[PPNeueMachinaLight]">05</span> 
+            <h3 class="text-5xl font-[PPNeueMachinaLight]">Adrián Rubio</h3>
+            <div class="text-3xl justify-end flex flex-1">VP of Engineering</div>
+            <div class="picture absolute rounded-full w-80 h-80 top-[50%] opacity-0 -translate-[50%] bg-red-500 left-[50%]"></div>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/locomotive-scroll.min.js"></script>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
+

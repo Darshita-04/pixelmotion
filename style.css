@@ -44,3 +44,6 @@ body[theme="salmon"] {
 body[theme="salmon"] .section{
   color: var(--dsalmon);
 }
+.video {
+  clip-path: circle(var(--clip));
+}
